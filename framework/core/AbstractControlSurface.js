@@ -98,7 +98,7 @@ AbstractControlSurface.prototype.flush = function ()
             this.scheduledFlush ();
             this.displayScheduled = false;
             this.taskReturning = true;
-        }), null, 70); // TODO !!! Changed from 5
+        }), null, 70);
     }
     this.redrawGrid ();
 }
